@@ -19,7 +19,7 @@
         This is needed for the docker-compose file to set the correct external_url
       default: 'https://'
       required: true
-      type: "string"
+      type: "enum"
       options:
         - 'https://'
         - 'http://'
